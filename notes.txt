@@ -1,0 +1,50 @@
+npm i nodemon -g    (globally)    -> automatically run indxe.js
+
+
+
+npm init   -> addming npm to proj
+
+npm i date-fns    addming package 
+
+
+npm install    install all required module 
+
+
+ npm i nodemon -D ,,,,, installed nodemon in devDependencies
+
+
+
+ in package.json
+
+ "scripts": {
+    "start" : "node index"
+,    "dev": "nodemon index"
+  },
+
+
+  Explanation:
+
+"start": "node index" → Runs your app using Node.js, executing the index.js file. This is the standard command for running a Node.js application.
+
+"dev": "nodemon index" → Uses nodemon to run the index.js file. nodemon automatically restarts the server when it detects changes in the files, making it useful for development.
+
+💡 Usage:
+
+To run the production server:
+
+bash
+Copy
+Edit
+npm start
+To run in development mode (with auto-reloading):
+
+bash
+Copy
+Edit
+npm run dev
+
+
+
+
+
+npm i uuid
