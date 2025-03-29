@@ -31,16 +31,9 @@ npm install    install all required module
 💡 Usage:
 
 To run the production server:
-
-bash
-Copy
-Edit
 npm start
-To run in development mode (with auto-reloading):
 
-bash
-Copy
-Edit
+To run in development mode (with auto-reloading):
 npm run dev
 
 
