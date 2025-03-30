@@ -41,3 +41,11 @@ npm run dev
 
 
 npm i uuid
+
+
+
+
+app.use  for middleware
+emitter.on     lisert
+emtter.eit    for event
+app.all       for routing
